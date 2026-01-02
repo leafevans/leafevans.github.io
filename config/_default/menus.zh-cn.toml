@@ -1,33 +1,33 @@
 [[main]]
-name = "首页"
+name    = "首页"
 pageRef = "/"
-weight = 1
-title = "首页"
+weight  = 1
+title   = "首页"
 
 [[main]]
-name = "随笔"
+name    = "随笔"
 pageRef = "posts"
-weight = 10
-title = "随笔"
+weight  = 10
+title   = "随笔"
 
 [[main]]
-name = "分类"
+name    = "分类"
 pageRef = "categories"
-weight = 20
-title = "分类"
+weight  = 20
+title   = "分类"
 
 [[main]]
-name = "标签"
+name    = "标签"
 pageRef = "tags"
-weight = 30
-title = "标签"
+weight  = 30
+title   = "标签"
 
 [[footer]]
-name = "关于"
+name    = "关于"
 pageRef = "about"
-weight = 10
+weight  = 10
 
 [[footer]]
-name = "联系"
-url = "mailto:leafevans@foxmail.com"
-weight = 20
+name    = "联系"
+url     = "mailto:leafevans@foxmail.com"
+weight  = 20
