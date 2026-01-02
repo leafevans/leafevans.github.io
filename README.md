@@ -19,3 +19,4 @@
 git clone https://github.com/LeafEvans/leafevans.github.io.git
 cd leafevans.github.io
 hugo server -D
+```
