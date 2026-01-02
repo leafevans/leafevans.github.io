@@ -3,7 +3,6 @@
 <script>
   (function () {
     "use strict";
-
     const CONFIG = {
       GISCUS_ORIGIN: "https://giscus.app",
       THEME_URLS: {
@@ -24,28 +23,41 @@
         crossorigin: "anonymous",
       },
     };
-
     const GiscusController = {
       getThemeUrl() {
         const isDark = document.documentElement.classList.contains("dark");
         return CONFIG.THEME_URLS[isDark ? "dark" : "light"];
       },
-
       updateTheme() {
         const iframe = document.querySelector("iframe.giscus-frame");
         if (!iframe?.contentWindow) return;
-
         const message = {
           giscus: { setConfig: { theme: this.getThemeUrl() } },
         };
         iframe.contentWindow.postMessage(message, CONFIG.GISCUS_ORIGIN);
       },
-
       init() {
-        this.loadScript();
+        this.setupLazyLoad();
         this.setupEventListeners();
       },
-
+      setupLazyLoad() {
+        const container = document.getElementById("giscus-container");
+        if (!container) return;
+        if ("IntersectionObserver" in window) {
+          const observer = new IntersectionObserver(
+            (entries) => {
+              if (entries[0].isIntersecting) {
+                this.loadScript();
+                observer.disconnect();
+              }
+            },
+            { rootMargin: "200px" }
+          );
+          observer.observe(container);
+        } else {
+          this.loadScript();
+        }
+      },
       loadScript() {
         const container = document.getElementById("giscus-container");
         if (!container) return;
@@ -61,13 +73,11 @@
 
         container.appendChild(script);
       },
-
       setupEventListeners() {
         new MutationObserver(() => this.updateTheme()).observe(
           document.documentElement,
           { attributes: true, attributeFilter: ["class"] }
         );
-
         window.addEventListener("message", (event) => {
           if (event.origin === CONFIG.GISCUS_ORIGIN && event.data?.giscus) {
             this.updateTheme();
@@ -75,7 +85,6 @@
         });
       },
     };
-
     GiscusController.init();
   })();
 </script>
