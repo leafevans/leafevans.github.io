@@ -51,7 +51,7 @@
                 observer.disconnect();
               }
             },
-            { rootMargin: "200px" }
+            { rootMargin: "200px" },
           );
           observer.observe(container);
         } else {
@@ -60,8 +60,6 @@
       },
       loadScript() {
         const container = document.getElementById("giscus-container");
-        if (!container) return;
-
         const script = document.createElement("script");
         script.src = `${CONFIG.GISCUS_ORIGIN}/client.js`;
         script.async = true;
@@ -76,10 +74,10 @@
       setupEventListeners() {
         new MutationObserver(() => this.updateTheme()).observe(
           document.documentElement,
-          { attributes: true, attributeFilter: ["class"] }
+          { attributes: true, attributeFilter: ["class"] },
         );
         window.addEventListener("message", (event) => {
-          if (event.origin === CONFIG.GISCUS_ORIGIN && event.data?.giscus) {
+          if (event.origin === CONFIG.GISCUS_ORIGIN && event.data?.giscus?.discussion) {
             this.updateTheme();
           }
         });
