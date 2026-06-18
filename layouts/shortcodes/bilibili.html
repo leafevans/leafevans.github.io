@@ -5,11 +5,12 @@
 
 <div class="bilibili-embed">
     <iframe
-        src="https://player.bilibili.com/player.html?{{ if $bvid }}bvid={{ $bvid }}{{ else }}aid={{ $aid }}{{ end }}&page={{ $page }}&autoplay={{ $autoplay }}&danmaku={{ $danmaku }}&high_quality={{ $highQuality }}"
+        src="//player.bilibili.com/player.html?{{ if $bvid }}bvid={{ $bvid }}{{ else }}aid={{ $aid }}{{ end }}&page={{ $page }}&autoplay={{ $autoplay }}&danmaku={{ $danmaku }}&high_quality={{ $highQuality }}&as_wide=1"
         scrolling="no"
         frameborder="0"
         allowfullscreen
         loading="lazy"
+        sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
     ></iframe>
 </div>
 
