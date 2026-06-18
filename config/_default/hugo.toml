@@ -67,3 +67,6 @@ noClasses = false
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[minify]
+disableHTML = true
