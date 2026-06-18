@@ -212,7 +212,7 @@ graph TD
 
 ## 八、北魏疆域
 
-![北魏疆域图](/img/posts/northern-wei-dynasty/song-wei-map.jpg)
+![北魏疆域图](/img/posts/northern-wei-dynasty/qi-wei-map.jpg)
 
 _宋、魏时期全图，北魏鼎盛时期控制了整个中国北方（图片来源：谭其骧《中国历史地图集》）_
 

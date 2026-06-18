@@ -148,7 +148,7 @@ graph TD
 
 ## 七、刘宋疆域
 
-![宋魏时期全图](/img/posts/liu-song-dynasty/song-wei-map.jpg)
+![宋魏时期全图](/img/posts/liu-song-dynasty/song-map.jpg)
 
 _宋魏时期全图，刘宋与北魏南北对峙（图片来源：谭其骧《中国历史地图集》）_
 
