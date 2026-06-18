@@ -196,9 +196,7 @@ graph TD
 
 ## 八、南梁疆域
 
-![梁魏时期全图](/img/posts/southern-liang-dynasty/liang-wei-map.jpg)
-
-_梁、东魏、西魏时期全图，南梁与东魏、西魏三足鼎立（图片来源：谭其骧《中国历史地图集》）_
+![梁魏时期全图](/img/posts/southern-liang-dynasty/liang-map.jpg)
 
 ---
 
