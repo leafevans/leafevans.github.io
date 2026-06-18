@@ -33,3 +33,9 @@ function initMermaidDark() {
     },
   });
 }
+
+(function autoInit() {
+  const isDark = document.documentElement.classList.contains("dark");
+  isDark ? initMermaidDark() : initMermaidLight();
+  mermaid.run();
+})();
