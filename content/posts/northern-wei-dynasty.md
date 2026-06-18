@@ -6,7 +6,7 @@ description: "北魏是南北朝时期北方最重要的王朝，从拓跋珪复
 categories: ["历史"]
 tags: ["北魏", "南北朝", "鮮卑", "孝文帝", "中国历史"]
 showHero: true
-hero: /img/posts/northern-wei-dynasty/yungang-grottoes-cave20.jpg
+featureimage: img/posts/northern-wei-dynasty/yungang-grottoes-cave20.jpg
 ---
 
 ## 一、引言
