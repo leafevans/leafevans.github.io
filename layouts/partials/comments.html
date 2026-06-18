@@ -76,11 +76,6 @@
           document.documentElement,
           { attributes: true, attributeFilter: ["class"] },
         );
-        window.addEventListener("message", (event) => {
-          if (event.origin === CONFIG.GISCUS_ORIGIN && event.data?.giscus?.discussion) {
-            this.updateTheme();
-          }
-        });
       },
     };
     GiscusController.init();
