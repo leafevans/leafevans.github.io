@@ -1,0 +1,33 @@
+[[main]]
+name    = "首頁"
+pageRef = "/"
+weight  = 1
+title   = "首頁"
+
+[[main]]
+name    = "隨筆"
+pageRef = "posts"
+weight  = 10
+title   = "隨筆"
+
+[[main]]
+name    = "分類"
+pageRef = "categories"
+weight  = 20
+title   = "分類"
+
+[[main]]
+name    = "標籤"
+pageRef = "tags"
+weight  = 30
+title   = "標籤"
+
+[[footer]]
+name    = "關於"
+pageRef = "about"
+weight  = 10
+
+[[footer]]
+name    = "聯繫"
+url     = "mailto:leafevans@foxmail.com"
+weight  = 20
