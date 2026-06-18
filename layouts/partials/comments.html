@@ -25,17 +25,21 @@
     };
     const GiscusController = {
       _iframe: null,
+      _debounceTimer: null,
       getThemeUrl() {
         const isDark = document.documentElement.classList.contains("dark");
         return CONFIG.THEME_URLS[isDark ? "dark" : "light"];
       },
       updateTheme() {
-        const iframe = this._iframe;
-        if (!iframe?.contentWindow) return;
-        const message = {
-          giscus: { setConfig: { theme: this.getThemeUrl() } },
-        };
-        iframe.contentWindow.postMessage(message, CONFIG.GISCUS_ORIGIN);
+        clearTimeout(this._debounceTimer);
+        this._debounceTimer = setTimeout(() => {
+          const iframe = this._iframe;
+          if (!iframe?.contentWindow) return;
+          const message = {
+            giscus: { setConfig: { theme: this.getThemeUrl() } },
+          };
+          iframe.contentWindow.postMessage(message, CONFIG.GISCUS_ORIGIN);
+        }, 50);
       },
       init() {
         this.setupLazyLoad();
