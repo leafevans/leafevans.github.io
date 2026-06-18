@@ -309,10 +309,34 @@
   
   
     
-<link rel="preload" href="/fonts/ChillRoundFRegular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/ChillRoundFBold.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/MapleMono-NF-CN-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/MapleMono-NF-CN-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link
+    rel="preload"
+    href="/fonts/ChillRoundFRegular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+/>
+<link
+    rel="preload"
+    href="/fonts/ChillRoundFBold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+/>
+<link
+    rel="preload"
+    href="/fonts/MapleMono-NF-CN-Regular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+/>
+<link
+    rel="preload"
+    href="/fonts/MapleMono-NF-CN-Bold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+/>
 
   
 
@@ -1038,93 +1062,99 @@
               <div id="giscus-container"></div>
 
 <script>
-  (function () {
-    "use strict";
-    const CONFIG = {
-      GISCUS_ORIGIN: "https://giscus.app",
-      THEME_URLS: {
-        dark: "https://leafevans.github.io/css/giscus-fire-dark.css",
-        light: "https://leafevans.github.io/css/giscus-fire-light.css",
-      },
-      GISCUS_ATTRS: {
-        "data-repo": "LeafEvans/leafevans.github.io",
-        "data-repo-id": "R_kgDOP5oBLw",
-        "data-category": "Comments",
-        "data-category-id": "DIC_kwDOP5oBL84CwFBN",
-        "data-mapping": "pathname",
-        "data-strict": "0",
-        "data-reactions-enabled": "1",
-        "data-emit-metadata": "0",
-        "data-input-position": "bottom",
-        "data-lang": "zh-CN",
-        crossorigin: "anonymous",
-      },
-    };
-    const GiscusController = {
-      _iframe: null,
-      _debounceTimer: null,
-      getThemeUrl() {
-        const isDark = document.documentElement.classList.contains("dark");
-        return CONFIG.THEME_URLS[isDark ? "dark" : "light"];
-      },
-      updateTheme() {
-        clearTimeout(this._debounceTimer);
-        this._debounceTimer = setTimeout(() => {
-          const iframe = this._iframe;
-          if (!iframe?.contentWindow) return;
-          const message = {
-            giscus: { setConfig: { theme: this.getThemeUrl() } },
-          };
-          iframe.contentWindow.postMessage(message, CONFIG.GISCUS_ORIGIN);
-        }, 50);
-      },
-      init() {
-        this.setupLazyLoad();
-        this.setupEventListeners();
-      },
-      setupLazyLoad() {
-        const container = document.getElementById("giscus-container");
-        if (!container) return;
-        if ("IntersectionObserver" in window) {
-          const observer = new IntersectionObserver(
-            (entries) => {
-              if (entries[0].isIntersecting) {
-                this.loadScript();
-                observer.disconnect();
-              }
+    (function () {
+        "use strict";
+        const CONFIG = {
+            GISCUS_ORIGIN: "https://giscus.app",
+            THEME_URLS: {
+                dark: "https://leafevans.github.io/css/giscus-fire-dark.css",
+                light: "https://leafevans.github.io/css/giscus-fire-light.css",
             },
-            { rootMargin: "200px" },
-          );
-          observer.observe(container);
-        } else {
-          this.loadScript();
-        }
-      },
-      loadScript() {
-        const container = document.getElementById("giscus-container");
-        const script = document.createElement("script");
-        script.src = `${CONFIG.GISCUS_ORIGIN}/client.js`;
-        script.async = true;
-        script.setAttribute("data-theme", this.getThemeUrl());
-
-        Object.entries(CONFIG.GISCUS_ATTRS).forEach(([key, value]) => {
-          script.setAttribute(key, value);
-        });
-
-        script.onload = () => {
-          this._iframe = document.querySelector("iframe.giscus-frame");
+            GISCUS_ATTRS: {
+                "data-repo": "LeafEvans/leafevans.github.io",
+                "data-repo-id": "R_kgDOP5oBLw",
+                "data-category": "Comments",
+                "data-category-id": "DIC_kwDOP5oBL84CwFBN",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-lang": "zh-CN",
+                crossorigin: "anonymous",
+            },
         };
-        container.appendChild(script);
-      },
-      setupEventListeners() {
-        new MutationObserver(() => this.updateTheme()).observe(
-          document.documentElement,
-          { attributes: true, attributeFilter: ["class"] },
-        );
-      },
-    };
-    GiscusController.init();
-  })();
+        const GiscusController = {
+            _iframe: null,
+            _debounceTimer: null,
+            getThemeUrl() {
+                const isDark =
+                    document.documentElement.classList.contains("dark");
+                return CONFIG.THEME_URLS[isDark ? "dark" : "light"];
+            },
+            updateTheme() {
+                clearTimeout(this._debounceTimer);
+                this._debounceTimer = setTimeout(() => {
+                    const iframe = this._iframe;
+                    if (!iframe?.contentWindow) return;
+                    const message = {
+                        giscus: { setConfig: { theme: this.getThemeUrl() } },
+                    };
+                    iframe.contentWindow.postMessage(
+                        message,
+                        CONFIG.GISCUS_ORIGIN,
+                    );
+                }, 50);
+            },
+            init() {
+                this.setupLazyLoad();
+                this.setupEventListeners();
+            },
+            setupLazyLoad() {
+                const container = document.getElementById("giscus-container");
+                if (!container) return;
+                if ("IntersectionObserver" in window) {
+                    const observer = new IntersectionObserver(
+                        (entries) => {
+                            if (entries[0].isIntersecting) {
+                                this.loadScript();
+                                observer.disconnect();
+                            }
+                        },
+                        { rootMargin: "200px" },
+                    );
+                    observer.observe(container);
+                } else {
+                    this.loadScript();
+                }
+            },
+            loadScript() {
+                const container = document.getElementById("giscus-container");
+                const script = document.createElement("script");
+                script.src = `${CONFIG.GISCUS_ORIGIN}/client.js`;
+                script.async = true;
+                script.setAttribute("data-theme", this.getThemeUrl());
+
+                Object.entries(CONFIG.GISCUS_ATTRS).forEach(([key, value]) => {
+                    script.setAttribute(key, value);
+                });
+
+                script.onload = () => {
+                    this._iframe = document.querySelector(
+                        "iframe.giscus-frame",
+                    );
+                };
+                container.appendChild(script);
+            },
+            setupEventListeners() {
+                new MutationObserver(() => this.updateTheme()).observe(
+                    document.documentElement,
+                    { attributes: true, attributeFilter: ["class"] },
+                );
+            },
+        };
+        GiscusController.init();
+    })();
 </script>
 
             </div>

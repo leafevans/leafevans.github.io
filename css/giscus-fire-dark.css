@@ -1,34 +1,38 @@
 @font-face {
     font-family: ChillRoundF;
-    src: url('https://leafevans.github.io/fonts/ChillRoundFRegular.woff2') format('woff2');
+    src: url("https://leafevans.github.io/fonts/ChillRoundFRegular.woff2")
+        format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: ChillRoundF;
-    src: url('https://leafevans.github.io/fonts/ChillRoundFBold.woff2') format('woff2');
+    src: url("https://leafevans.github.io/fonts/ChillRoundFBold.woff2")
+        format("woff2");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: MapleMonoNFCN;
-    src: url('https://leafevans.github.io/fonts/MapleMono-NF-CN-Regular.woff2') format('woff2');
+    src: url("https://leafevans.github.io/fonts/MapleMono-NF-CN-Regular.woff2")
+        format("woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: MapleMonoNFCN;
-    src: url('https://leafevans.github.io/fonts/MapleMono-NF-CN-Bold.woff2') format('woff2');
+    src: url("https://leafevans.github.io/fonts/MapleMono-NF-CN-Bold.woff2")
+        format("woff2");
     font-weight: bold;
     font-style: normal;
 }
 
 main {
-    --font-sans: ChillRoundF, '微软雅黑', Arial, sans-serif;
-    --font-mono: MapleMonoNFCN, 'Fira Mono', Consolas, Menlo, Monaco, monospace;
+    --font-sans: ChillRoundF, "微软雅黑", Arial, sans-serif;
+    --font-mono: MapleMonoNFCN, "Fira Mono", Consolas, Menlo, Monaco, monospace;
     --color-prettylights-syntax-comment: #a8a29e;
     --color-prettylights-syntax-constant: #fb923c;
     --color-prettylights-syntax-entity: #fb7185;
