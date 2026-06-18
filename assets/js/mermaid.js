@@ -34,3 +34,7 @@ function renderMermaid() {
 }
 
 document.addEventListener("DOMContentLoaded", renderMermaid);
+
+// Keep for theme appearance.js compatibility
+function initMermaidLight() { renderMermaid(); }
+function initMermaidDark() { renderMermaid(); }
