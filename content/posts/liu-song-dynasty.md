@@ -6,7 +6,7 @@ description: "刘宋是南北朝时期南朝的第一个朝代，由寒门出身
 categories: ["历史"]
 tags: ["刘宋", "南北朝", "刘裕", "南朝", "中国历史"]
 showHero: true
-featureimage: img/posts/liu-song-dynasty/liu-yu-mie-hou-qin.jpg
+featureimage: img/posts/liu-song-dynasty/liu-yu.jpg
 ---
 
 ## 一、引言
@@ -16,6 +16,10 @@ featureimage: img/posts/liu-song-dynasty/liu-yu-mie-hou-qin.jpg
 刘宋的历史，是一部从寒门逆袭到骨肉相残的悲剧。刘裕以一介布衣之身，凭借盖世军功崛起于乱世，北伐中原、收复两京，最终代晋建宋。然而，他的后代却在短短60年间上演了一幕幕父子相戮、兄弟相残的惨剧——以至于亡国之君发出了“愿后身世世勿复生帝王家”的哀叹。
 
 本文以帝王更迭为主线，梳理刘宋从草创到覆灭的整个过程。
+
+![刘裕画像](/img/posts/liu-song-dynasty/liu-yu.jpg)
+
+_宋武帝刘裕画像_
 
 ---
 
@@ -148,9 +152,9 @@ graph TD
 
 ## 七、刘宋疆域
 
-![宋魏时期全图](/img/posts/liu-song-dynasty/song-map.jpg)
+![刘宋疆域图](/img/posts/liu-song-dynasty/song-map.jpg)
 
-_宋魏时期全图，刘宋与北魏南北对峙（图片来源：谭其骧《中国历史地图集》）_
+_刘宋疆域图（图片来源：谭其骧《中国历史地图集》）_
 
 ---
 
