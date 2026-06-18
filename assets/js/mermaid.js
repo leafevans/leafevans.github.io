@@ -4,7 +4,9 @@ function css(name) {
 
 function initMermaidLight() {
   mermaid.initialize({
+    startOnLoad: false,
     theme: "base",
+    fontFamily: '"ChillRoundF", "Microsoft YaHei", Arial, sans-serif',
     themeVariables: {
       background: css("--color-neutral"),
       primaryColor: css("--color-primary-200"),
@@ -14,7 +16,7 @@ function initMermaidLight() {
       secondaryBorderColor: css("--color-secondary-400"),
       tertiaryBorderColor: css("--color-neutral-400"),
       lineColor: css("--color-neutral-600"),
-      fontFamily: "ChillRoundF, 微软雅黑, Arial, sans-serif",
+      fontFamily: '"ChillRoundF", "Microsoft YaHei", Arial, sans-serif',
       fontSize: "15px",
     },
   });
@@ -22,9 +24,11 @@ function initMermaidLight() {
 
 function initMermaidDark() {
   mermaid.initialize({
+    startOnLoad: false,
     theme: "dark",
+    fontFamily: '"ChillRoundF", "Microsoft YaHei", Arial, sans-serif',
     themeVariables: {
-      fontFamily: "ChillRoundF, 微软雅黑, Arial, sans-serif",
+      fontFamily: '"ChillRoundF", "Microsoft YaHei", Arial, sans-serif',
       fontSize: "15px",
     },
   });
