@@ -6,6 +6,7 @@ description: "刘宋是南北朝时期南朝的第一个朝代，由寒门出身
 categories: ["历史"]
 tags: ["刘宋", "南北朝", "刘裕", "南朝", "中国历史"]
 showHero: true
+hero: /img/posts/liu-song-dynasty/liu-yu-mie-hou-qin.jpg
 ---
 
 ## 一、引言
