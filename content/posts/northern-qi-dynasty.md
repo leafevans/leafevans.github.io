@@ -130,7 +130,7 @@ _玉璧之战示意图，高欢在此战中遭遇惨败_
 
 北齐将士们为了歌颂他的英勇，创作了著名的《兰陵王入阵曲》。这首乐曲后来传入日本，成为日本雅乐的重要组成部分。
 
-{{< video src="videos/northern-qi-dynasty/lanlingwang-entrance.mp4" >}}
+{{< video src="videos/lanlingwang-entrance.mp4" >}}
 
 _《兰陵王入阵曲》，北齐将士为歌颂兰陵王英勇而创作的乐曲_
 
