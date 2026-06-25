@@ -1,4 +1,4 @@
-﻿---
+---
 title: "南陈兴衰：南朝最后的黄昏"
 date: 2026-06-19T00:00:00+08:00
 draft: false
@@ -6,7 +6,7 @@ description: "南陈是南北朝时期南朝的最后一个朝代，由陈霸先
 categories: ["历史"]
 tags: ["南陈", "南北朝", "陈霸先", "陈后主", "中国历史"]
 showHero: true
-featureimage: img/posts/southern-chen-dynasty/chen-wudi.jpg
+featureimage: img/chen-wudi.webp
 ---
 
 ## 一、引言
@@ -17,7 +17,7 @@ featureimage: img/posts/southern-chen-dynasty/chen-wudi.jpg
 
 如果说刘宋是"寒门逆袭"，南齐是"禅代先例"，南梁是"崇佛误国"，那么南陈就是"南朝的黄昏"——一个注定要结束的时代。
 
-![陈武帝陈霸先画像](/img/posts/southern-chen-dynasty/chen-wudi.jpg)
+![陈武帝陈霸先画像](/img/chen-wudi.webp)
 
 _南陈开国皇帝陈武帝陈霸先画像_
 
@@ -95,7 +95,7 @@ _南陈开国皇帝陈武帝陈霸先画像_
 
 陈后主的荒政，加速了南陈的灭亡。当时的大臣**傅縡**曾上书劝谏，却被陈后主赐死。
 
-![韩熙载夜宴图](/img/posts/southern-chen-dynasty/han-xizai-feast.jpg)
+![韩熙载夜宴图](/img/han-xizai-feast.webp)
 
 _韩熙载夜宴图，描绘南唐大臣韩熙载的夜宴场景，反映了南朝晚期贵族的奢靡生活_
 
@@ -129,7 +129,7 @@ D --> E[陈后主 陈叔宝 582-589]
 
 ## 六、南陈疆域
 
-![陈时期全图](/img/posts/southern-chen-dynasty/chen-map.jpg)
+![陈时期全图](/img/chen-map.webp)
 
 _陈时期全图，南陈疆域是南朝四代中最小的_
 
@@ -137,7 +137,7 @@ _陈时期全图，南陈疆域是南朝四代中最小的_
 
 ## 七、隋灭陈
 
-![隋灭陈形势图](/img/posts/southern-chen-dynasty/sui-destroys-chen.jpeg)
+![隋灭陈形势图](/img/sui-destroys-chen.webp)
 
 _隋灭陈形势图，隋文帝分八路大军南下，一举统一中国_
 

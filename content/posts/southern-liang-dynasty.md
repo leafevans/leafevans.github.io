@@ -1,4 +1,4 @@
-﻿---
+---
 title: "南梁兴衰：从文人天子到台城饿殍"
 date: 2026-06-19T00:00:00+08:00
 draft: false
@@ -6,7 +6,7 @@ description: "南梁是南北朝时期南朝的第三个朝代，由竟陵八友
 categories: ["历史"]
 tags: ["南梁", "南北朝", "萧衍", "侯景之乱", "中国历史"]
 showHero: true
-featureimage: img/posts/southern-liang-dynasty/liang-wudi.jpg
+featureimage: img/liang-wudi.webp
 ---
 
 ## 一、引言
@@ -17,7 +17,7 @@ featureimage: img/posts/southern-liang-dynasty/liang-wudi.jpg
 
 如果说南齐的故事是“禅代先例”，那么南梁的故事就是“崇佛误国”。一个文武双全的开国之君，如何在暮年亲手葬送了自己打下的江山？
 
-![梁武帝萧衍画像](/img/posts/southern-liang-dynasty/liang-wudi.jpg)
+![梁武帝萧衍画像](/img/liang-wudi.webp)
 
 _南梁开国皇帝梁武帝萧衍画像_
 
@@ -135,7 +135,7 @@ _南梁开国皇帝梁武帝萧衍画像_
 
 548年十月，侯景率军渡过长江，围攻建康皇宫所在地——**台城**。台城是南朝的政治中心，城墙高大坚固，守军众多。
 
-![台城古迹图](/img/posts/southern-liang-dynasty/taicheng-ruins.jpg)
+![台城古迹图](/img/taicheng-ruins.webp)
 
 _台城古迹图，台城是南朝皇宫所在地，也是侯景之乱的核心战场（图片来源：朱偰《金陵古迹图考》）_
 
@@ -196,7 +196,7 @@ B --> G[萧栋 551, 侯景立]
 
 ## 八、南梁疆域
 
-![梁魏时期全图](/img/posts/southern-liang-dynasty/liang-map.jpg)
+![梁魏时期全图](/img/liang-map.webp)
 
 ---
 

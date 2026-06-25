@@ -1,4 +1,4 @@
-﻿---
+---
 title: "西魏北周：从武川劲旅到隋唐根基"
 date: 2026-06-19T00:00:00+08:00
 draft: false
@@ -6,7 +6,7 @@ description: "西魏和北周是南北朝时期北朝的重要王朝，由宇文
 categories: ["历史"]
 tags: ["北周", "西魏", "南北朝", "宇文泰", "府兵制", "中国历史"]
 showHero: true
-featureimage: img/posts/northern-zhou-dynasty/yuwen-tai.jpg
+featureimage: img/yuwen-tai.webp
 ---
 
 ## 一、引言
@@ -17,7 +17,7 @@ featureimage: img/posts/northern-zhou-dynasty/yuwen-tai.jpg
 
 从宇文泰到杨坚——西魏北周的历史，是一部关于制度、人才与文明的史诗。
 
-![宇文泰画像](/img/posts/northern-zhou-dynasty/yuwen-tai.jpg)
+![宇文泰画像](/img/yuwen-tai.webp)
 
 _西魏权臣、北周奠基者宇文泰画像_
 
@@ -50,7 +50,7 @@ _西魏权臣、北周奠基者宇文泰画像_
 
 沙苑之战是南北朝时期最经典的以少胜多战役之一，奠定了西魏的立国基础。
 
-![沙苑之战示意图](/img/posts/northern-zhou-dynasty/battle-of-shayuan.jpeg)
+![沙苑之战示意图](/img/battle-of-shayuan.webp)
 
 _沙苑之战示意图，宇文泰以不足1万兵力大败东魏20万大军_
 
@@ -194,7 +194,7 @@ F --> G[周静帝 宇文阐 580-581]
 
 ## 七、北周疆域
 
-![陈齐周时期全图](/img/posts/northern-zhou-dynasty/qi-zhou-chen-map.jpg)
+![陈齐周时期全图](/img/qi-zhou-chen-map.webp)
 
 _陈齐周时期全图，北周与北齐、南陈三国鼎立_
 

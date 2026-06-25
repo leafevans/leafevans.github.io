@@ -1,4 +1,4 @@
-﻿---
+---
 title: "刘宋兴衰：草根皇帝与门阀血雨"
 date: 2026-06-19T00:00:00+08:00
 draft: false
@@ -6,7 +6,7 @@ description: "刘宋是南北朝时期南朝的第一个朝代，由寒门出身
 categories: ["历史"]
 tags: ["刘宋", "南北朝", "刘裕", "南朝", "中国历史"]
 showHero: true
-featureimage: img/posts/liu-song-dynasty/liu-yu.jpg
+featureimage: img/liu-yu.webp
 ---
 
 ## 一、引言
@@ -17,7 +17,7 @@ featureimage: img/posts/liu-song-dynasty/liu-yu.jpg
 
 本文以帝王更迭为主线，梳理刘宋从草创到覆灭的整个过程。
 
-![刘裕画像](/img/posts/liu-song-dynasty/liu-yu.jpg)
+![刘裕画像](/img/liu-yu.webp)
 
 _宋武帝刘裕画像_
 
@@ -47,7 +47,7 @@ _宋武帝刘裕画像_
 
 尽管如此，刘裕两次北伐收复了河南、山东和关中大片土地，是东晋百年来最辉煌的军事成就。
 
-![刘裕灭后秦路线图](/img/posts/liu-song-dynasty/liu-yu-mie-hou-qin.jpg)
+![刘裕灭后秦路线图](/img/liu-yu-mie-hou-qin.webp)
 
 _刘裕北伐灭后秦路线图（图片来源：谭其骧《中国历史地图集》）_
 
@@ -154,7 +154,7 @@ G --> I[宋顺帝 刘准 477-479]
 
 ## 七、刘宋疆域
 
-![刘宋疆域图](/img/posts/liu-song-dynasty/song-map.jpg)
+![刘宋疆域图](/img/song-map.webp)
 
 _刘宋疆域图（图片来源：谭其骧《中国历史地图集》）_
 

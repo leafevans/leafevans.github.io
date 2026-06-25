@@ -6,7 +6,7 @@ description: "南齐是南北朝时期南朝的第二个朝代，由萧道成建
 categories: ["历史"]
 tags: ["南齐", "南北朝", "萧道成", "南朝", "中国历史"]
 showHero: true
-featureimage: img/posts/southern-qi-dynasty/xiao-daocheng.jpg
+featureimage: img/xiao-daocheng.webp
 ---
 
 ## 一、引言
@@ -17,7 +17,7 @@ featureimage: img/posts/southern-qi-dynasty/xiao-daocheng.jpg
 
 与刘宋的“寒门逆袭”不同，南齐的故事更像是一出“权臣篡位”的经典剧本。从萧道成到萧衍，南齐的兴衰折射出南朝政治的深层困境：当皇权缺乏足够的合法性支撑，权臣篡位便成为改朝换代的唯一路径。
 
-![萧道成画像](/img/posts/southern-qi-dynasty/xiao-daocheng.jpg)
+![萧道成画像](/img/xiao-daocheng.webp)
 
 _南齐开国皇帝萧道成画像_
 
@@ -91,7 +91,7 @@ _南齐开国皇帝萧道成画像_
 
 竟陵八友的文学活动，推动了南朝文学的发展，为后来的唐诗奠定了基础。沈约的“四声八病”说，更是中国诗歌格律化的里程碑。
 
-![西园雅集图](/img/posts/southern-qi-dynasty/literati-gathering.jpg)
+![西园雅集图](/img/literati-gathering.webp)
 
 _西园雅集图，描绘古代文人雅集的场景，象征南齐时期的文化繁荣_
 
@@ -162,7 +162,7 @@ F --> H[齐和帝 萧宝融 501-502]
 
 ## 七、南齐疆域
 
-![齐魏时期全图](/img/posts/southern-qi-dynasty/qi-wei-map.jpg)
+![齐魏时期全图](/img/qi-wei-map.webp)
 
 _齐魏时期全图，南齐与北魏南北对峙（图片来源：谭其骧《中国历史地图集》）_
 

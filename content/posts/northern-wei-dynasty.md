@@ -1,4 +1,4 @@
-﻿---
+---
 title: "北魏兴衰：从草原铁骑到洛阳龙门"
 date: 2026-06-18T22:00:00+08:00
 draft: false
@@ -6,7 +6,7 @@ description: "北魏是南北朝时期北方最重要的王朝，从拓跋珪复
 categories: ["历史"]
 tags: ["北魏", "南北朝", "鮮卑", "孝文帝", "中国历史"]
 showHero: true
-featureimage: img/posts/northern-wei-dynasty/yungang-grottoes-cave20.jpg
+featureimage: img/yungang-grottoes-cave20.webp
 ---
 
 ## 一、引言
@@ -91,7 +91,7 @@ featureimage: img/posts/northern-wei-dynasty/yungang-grottoes-cave20.jpg
 
 云冈石窟位于今山西大同，现存主要洞窟45个，造像51000余尊。其中最著名的是**第20窟的露天大佛**，高13.7米，据传以道武帝的形象为原型雕刻。
 
-![云冈石窟第20窟露天大佛](/img/posts/northern-wei-dynasty/yungang-grottoes-cave20.jpg)
+![云冈石窟第20窟露天大佛](/img/yungang-grottoes-cave20.webp)
 
 _云冈石窟第20窟露天大佛，高13.7米，北魏时期开凿的佛教石窟艺术宝库_
 
@@ -212,7 +212,7 @@ L --> N[西魏 文帝 元宝炬]
 
 ## 八、北魏疆域
 
-![北魏疆域图](/img/posts/northern-wei-dynasty/qi-wei-map.jpg)
+![北魏疆域图](/img/qi-wei-map.webp)
 
 _齐魏时期全图，北魏鼎盛时期控制了整个中国北方（图片来源：谭其骧《中国历史地图集》）_
 
