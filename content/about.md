@@ -1,5 +1,6 @@
 ---
 title: "关于"
+showPagination: false
 date: 2025-09-30
 ---
 
