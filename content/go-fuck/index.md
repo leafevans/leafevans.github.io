@@ -65,6 +65,10 @@ go-fuck --setup
 fuck
 ```
 
+## 反馈
+
+遇到问题或想加规则，欢迎开 [Issue](https://github.com/leafevans/go-fuck/issues)；如果这个工具帮到了你，欢迎在 GitHub 上点个 Star ⭐。
+
 ## 链接
 
 - [GitHub 仓库](https://github.com/leafevans/go-fuck)
