@@ -1,5 +1,7 @@
 ---
 title: "go-fuck"
+date: "2026-11-09"
+showPagination: false
 description: "一个用 Go 重写的 thefuck：毫秒级给出命令修正建议。"
 showDate: false
 showAuthor: false
