@@ -22,6 +22,12 @@ pageRef = "tags"
 weight  = 30
 title   = "标签"
 
+[[main]]
+name    = "go-fuck"
+url     = "/go-fuck/"
+weight  = 15
+title   = "go-fuck"
+
 [[footer]]
 name    = "关于"
 pageRef = "about"
