@@ -71,6 +71,18 @@ fuck
 
 遇到问题或想加规则，欢迎开 [Issue](https://github.com/leafevans/go-fuck/issues)；如果这个工具帮到了你，欢迎在 GitHub 上点个 Star ⭐。
 
+## 遇到问题？
+
+先运行诊断命令：
+
+```bash
+go-fuck --doctor
+```
+
+它会检查当前 shell、alias 是否写入配置、settings 文件、history 和可选集成（fzf、instant mode、AI），在警告里给出修复命令；加上 --json 参数可以输出机器可读的报告。
+
+运行 go-fuck --list-rules 会列出所有内置规则，方便配置 rules / exclude_rules / priority。
+
 ## 链接
 
 - [GitHub 仓库](https://github.com/leafevans/go-fuck)
