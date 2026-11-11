@@ -14,7 +14,7 @@ showTableOfContents: true
 **go-fuck** 是一个用 Go 重写的 [thefuck](https://github.com/nvbn/thefuck)。命令敲错时输入 `fuck`，它会根据内置规则给出修正建议，确认后直接执行。
 
 - **快**：纯 Go、零第三方依赖，启动和规则匹配都在毫秒级
-- **全**：200+ 条内置规则，覆盖 git、npm/pnpm/yarn、uv、cargo、kubectl、gh、PowerShell 等
+- **全**：240+ 条内置规则，覆盖 git、npm/pnpm/yarn、uv、cargo、kubectl、gh、PowerShell、Go 工具链、cmd.exe 等
 - **跨平台**：Linux、macOS、Windows，支持 bash / zsh / fish / tcsh / PowerShell
 - **可选 instant mode**：直接读取终端日志，不再重跑上一条命令
 
